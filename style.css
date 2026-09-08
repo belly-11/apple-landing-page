@@ -1,0 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background: #457d8b;
+    height: 90vh;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 7.5%;
+}
+
+.cabecalho-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+.cabecalho-icone {
+    padding: 1rem;
+}
+
+.cabecalho-carrossel {
+    background-image: url(apple-event.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 92.5%;
+}
